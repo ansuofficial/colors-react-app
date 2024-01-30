@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App-content {
+  height: 100vh;
+  border: 1px solid slategray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid slategray;
+  outline: none;
+  padding: 0.75rem 1rem;
+  width: 50%;
+}
+
+.content-wrapper  {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrapper h3 {
+  padding: 4rem;
+}
+
+.content-wrapper > div {
+  margin-bottom: 2.5rem;
+}
+
+.content-wrapper p{
+  line-height: 1.5;
+  text-align: center;
+}
+
+footer  {
+  bottom: 0;
+  padding: 2rem 0;
+  position: absolute;
+}
