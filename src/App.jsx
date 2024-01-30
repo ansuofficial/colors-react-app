@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <div className="App-content" style={{ backgroundColor: `${UIcolor}` }}>
-      <Callback getColor={getColor} />
+      <Callback setColor={getColor} />
     </div>
   );
 };

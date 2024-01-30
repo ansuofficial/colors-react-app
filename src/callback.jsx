@@ -1,12 +1,12 @@
 import { useState } from "react";
 
-const Callback = ({ getColor }) => {
+const Callback = ({ setColor }) => {
   const [activecolor, steActivecolor] = useState();
 
   const handleChange = (e) => {
     const { value } = e.target;
     steActivecolor(value);
-    getColor(value);
+    setColor(value);
   };
 
   return (
@@ -34,7 +34,7 @@ const Callback = ({ getColor }) => {
 
       <footer>
         <div>
-          &copy;{" "} All rights reserved &nbsp;
+          &copy; All rights reserved &nbsp;
           <a href="https://ansucoder.vercel.app/" target="_blank">
             Ansu
           </a>
