@@ -34,7 +34,7 @@ const Callback = ({ getColor }) => {
 
       <footer>
         <div>
-          &copy;{" "}
+          &copy;{" "} All rights reserved &nbsp;
           <a href="https://ansucoder.vercel.app/" target="_blank">
             Ansu
           </a>
